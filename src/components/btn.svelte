@@ -12,7 +12,7 @@
     margin-bottom: 20px;
     margin-left: 16px;
     margin-right: 16px;
-    width: 150px;
+    width: 210px;
     height: 50px;
     color: #fff;
     border-radius: 5px;

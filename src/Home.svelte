@@ -35,6 +35,8 @@
       value = "https://radiooooo.com/";
     } else if (name === "Radio Garden") {
       value = "http://radio.garden/";
+    } else if (name === "Citizen Dj") {
+      value = "https://citizen-dj.labs.loc.gov/";
     } else if (name === "Splitter") {
       value = "https://vocalremover.org/";
     } else if (name === "Drum Kits") {
@@ -56,6 +58,10 @@
 
 <main>
   <h1>SAMPLES</h1>
+  <p>
+    A place for sample heads. <br /> A collection of apps and resources for
+    sample based musicians. <br /> Have fun and make awesome music!
+  </p>
   <Input name="Youtube" fun={open} />
   <Input name="Spotify" fun={open} />
   <Input name="TuneBat" fun={open} />
@@ -66,6 +72,7 @@
   <div class="btn">
     <Btn text="Radiooo" calc={bt} />
     <Btn text="Radio Garden" calc={bt} />
+    <Btn text="Citizen Dj" calc={bt} />
     <Btn text="Splitter" calc={bt} />
     <Btn text="Drum Kits" calc={bt} />
     <Btn text="Ontiva" calc={bt} />
@@ -76,6 +83,10 @@
 </main>
 
 <style>
+  p {
+    color: white;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  }
   h1 {
     color: white;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
