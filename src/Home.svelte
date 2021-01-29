@@ -13,6 +13,9 @@
     } else if (name === "Spotify") {
       value = value.replace(" ", "%20");
       value = `https://open.spotify.com/search/` + value;
+    } else if (name === "SoundCloud") {
+      value = value.replace(" ", "%20");
+      value = `https://soundcloud.com/search?q=` + value;
     } else if (name === "Looperman") {
       value = value.replace(" ", "%20");
       value =
@@ -63,6 +66,7 @@
     sample based musicians. <br /> Have fun and make awesome music!
   </p>
   <Input name="Youtube" fun={open} />
+  <Input name="SoundCloud" fun={open} />
   <Input name="Spotify" fun={open} />
   <Input name="TuneBat" fun={open} />
   <Input name="Discogs" fun={open} />

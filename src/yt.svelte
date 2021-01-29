@@ -8,6 +8,8 @@
     let value;
     if (name === "Vinyl Frontier Plus") {
       value = "https://www.youtube.com/channel/UC8sdN6rOzGrCHDIDHTK_2KA";
+    } else if (name === "Andre navarro II") {
+      value = "https://www.youtube.com/channel/UCv5OAW45h67CJEY6kJLyisg";
     } else if (name === "Vinyl Frontier East II") {
       value = "https://www.youtube.com/channel/UCKMcwyZqQO3jcEF1BymFDMw";
     } else if (name === "Το φιλί της Πεταλούδας") {
@@ -80,6 +82,7 @@
     <Btn2 text="Vinyl Frontier Plus" calc={bt} />
     <Btn2 text="Vinyl Frontier East II" calc={bt} />
     <Btn2 text="Το φιλί της Πεταλούδας" calc={bt} />
+    <Btn2 text="Andre navarro II" calc={bt} />
     <Btn2 text="Foreal1992" calc={bt} />
     <Btn2 text="Pedro Nóbrega" calc={bt} />
     <Btn2 text="Ricardo Maraña" calc={bt} />
